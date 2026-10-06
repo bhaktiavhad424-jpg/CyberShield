@@ -1,0 +1,10 @@
+CREATE DATABASE IF NOT EXISTS cybershield;
+
+USE cybershield;
+
+CREATE TABLE IF NOT EXISTS scans (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    scan_type VARCHAR(50),
+    result VARCHAR(20),
+    scan_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

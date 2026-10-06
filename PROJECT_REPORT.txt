@@ -1,0 +1,103 @@
+CYBERSHIELD
+Cyber Security Awareness Web Application
+
+PROJECT REPORT
+
+Submitted by:
+Bhakti Kundalik Avhad
+
+Course:
+B.Sc. Information Technology - Second Year
+
+College:
+SCB College of Arts & Commerce, Churchgate
+
+University:
+SNDT Women's University, Mumbai
+
+
+1. INTRODUCTION
+
+Cybersecurity is important because people use computers and the internet for education, communication, banking and other daily activities. Many security problems happen because users use weak passwords or trust suspicious messages.
+
+CyberShield is a small web application developed to demonstrate basic cybersecurity awareness. The project checks password strength and identifies common warning words in phishing-style messages.
+
+
+2. OBJECTIVES
+
+- To understand basic cybersecurity concepts.
+- To create a web application using Python and Flask.
+- To use HTML and CSS for the user interface.
+- To connect a Python application with MySQL.
+- To store and display scan results.
+- To learn how simple rule-based security checking works.
+
+
+3. TECHNOLOGIES USED
+
+Python:
+Used for the main program and checking logic.
+
+Flask:
+Used to create the web application.
+
+HTML:
+Used to create the pages.
+
+CSS:
+Used for simple page design.
+
+MySQL:
+Used to store scan history.
+
+
+4. MODULES
+
+A. Password Security Check
+
+The user enters a sample password. The program checks its length and the presence of uppercase letters, lowercase letters, numbers and special characters.
+
+B. Phishing Message Check
+
+The user enters a sample message. The program searches for common warning words such as urgent, verify, OTP, prize, click and account.
+
+C. Database
+
+The scan type, result and date/time are stored in MySQL.
+
+D. Dashboard
+
+The dashboard shows the latest scan records.
+
+
+5. ADVANTAGES
+
+- Simple to understand.
+- Easy to run on a local computer.
+- Demonstrates Python and MySQL integration.
+- Helps explain basic cybersecurity awareness.
+- Suitable for a student-level project.
+
+
+6. LIMITATIONS
+
+- The phishing check uses simple keywords.
+- It does not use artificial intelligence.
+- It is not a professional security scanner.
+- Results can sometimes be incorrect because only simple rules are used.
+
+
+7. FUTURE SCOPE
+
+The project can later be improved by adding:
+- Better phishing detection rules.
+- Login system.
+- More cybersecurity awareness topics.
+- Charts for scan history.
+- A larger database.
+- More detailed security recommendations.
+
+
+8. CONCLUSION
+
+CyberShield helped me understand how Python, Flask, HTML, CSS and MySQL can be used together to create a small web application. It also helped me understand common cybersecurity risks such as weak passwords and phishing messages.

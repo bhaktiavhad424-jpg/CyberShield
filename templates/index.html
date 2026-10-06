@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CyberShield</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="box">
+        <h1>CyberShield</h1>
+        <p class="subtitle">Cyber Security Awareness Project</p>
+
+        <h2>Password Security Check</h2>
+        <form action="/password" method="post">
+            <input type="password" name="password" placeholder="Enter a sample password" required>
+            <button type="submit">Check Password</button>
+        </form>
+
+        <h2>Phishing Message Check</h2>
+        <form action="/phishing" method="post">
+            <textarea name="message" placeholder="Paste a sample message here" required></textarea>
+            <button type="submit">Check Message</button>
+        </form>
+
+        <a class="dashboard" href="/dashboard">View Scan History</a>
+
+        <p class="note">
+            Note: Do not enter your real password or private information.
+            This project is made for educational use.
+        </p>
+    </div>
+</body>
+</html>

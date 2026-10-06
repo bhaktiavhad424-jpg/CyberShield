@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CyberShield Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="box">
+        <h1>{{ title }}</h1>
+
+        <div class="result">
+            Result: <strong>{{ result }}</strong>
+        </div>
+
+        {% if result == "Weak" or result == "High" %}
+            <p>Be careful. Improve your security and avoid unknown links or requests.</p>
+        {% elif result == "Medium" %}
+            <p>Some warning signs were found. Check the information carefully.</p>
+        {% else %}
+            <p>No major warning signs were found by this simple checker.</p>
+        {% endif %}
+
+        <a class="dashboard" href="/">Go Back</a>
+    </div>
+</body>
+</html>
